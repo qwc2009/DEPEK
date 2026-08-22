@@ -1,0 +1,6 @@
+id=netmonitor
+name=NetMonitor
+version=v1.0
+versionCode=1
+author=DeepSeek
+description=实时网络流量监测 + Web UI，支持 Wi-Fi / 蜂窝
