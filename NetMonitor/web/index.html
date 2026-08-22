@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NetMonitor · 流量看板</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>📶 实时流量</h1>
+      <span id="time"></span>
+    </header>
+    <main>
+      <div class="metric">
+        <span class="label">⬇ 下载</span>
+        <span class="value" id="down">--</span>
+        <span class="unit">KB/s</span>
+      </div>
+      <div class="metric">
+        <span class="label">⬆ 上传</span>
+        <span class="value" id="up">--</span>
+        <span class="unit">KB/s</span>
+      </div>
+      <div class="metric total">
+        <span class="label">📦 今日总流量</span>
+        <span class="value" id="total">--</span>
+        <span class="unit">MB</span>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
